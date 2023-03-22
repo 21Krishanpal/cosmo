@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	font-family: sans-serif;
+}
+
+
+.form-container {
+    
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 25px;
+    padding-top: 100px;
+    background-color: #EDEDED;
+    border-radius: 5px;
+    padding-bottom: 30px;
+        
+    
+  }
+
+.logo{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.testi-enquiry-form-home {
+  margin-bottom: 20px;
+  margin-top: -90px;
+}
+
+.testi-enquiry-form-home .textfield {
+  
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+  color: #333333;
+  text-align: left;
+  width: 92%;
+  border: #cbcbcb solid thin;
+  height: auto;
+  border-radius: 5px;
+  background: url(icon-user.png) no-repeat 5px #FEFEFE;
+  padding-left: 30px;
+}
+
+.testi-enquiry-form-home .pass {
+  font-size: 12px;
+  
+  padding: 10px;
+  padding-left: 05px;
+  color: #333333;
+  text-align: left;
+  width: 92%;
+  border: #cbcbcb solid thin;
+  height: auto;
+  border-radius: 5px;
+  background: url(password-icon.png) no-repeat 5px #FEFEFE;
+  padding-left: 30px;
+}
+
+
+
+input[type=submit] {
+  background-color: #bc1124;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: -30px; 
+  
+}
+input[type=submit]:hover {
+  background-color: #3d3e3e;
+}
